@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://ems-ai-1-cf6p.onrender.com/api/attendance';
+const API_URL = `${process.env.NEXT_PUBLIC_API_URL}/api/attendance`;
 
 
 
